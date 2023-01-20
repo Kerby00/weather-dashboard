@@ -1,0 +1,103 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 75px;
+    justify-content: center;
+    background-color: skyblue;
+    margin-bottom: 5px;
+}
+
+header h1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: xx-large;
+    padding: 5px 15px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.dashboard {
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.searchside {
+    padding: 5px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.resultside {
+    padding: 5px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.resultbox {
+    margin: 5px;
+    padding-bottom: 15px;
+    border: 2px solid;
+    height: 30%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    align-self: center;
+    width: 100px;
+    background-color: olive;
+    margin: 10px;
+}
+
+input {
+    height: 30px;
+    border: 2px solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 1px gray;
+}
+
+hr {
+    height: 5px;
+    background-color: black;
+}
+.history {
+    text-align: center; 
+    background-color: lightgray;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.predictionslist {
+    display: flex;
+    flex-direction: row;
+}    
+
+.predictions {
+    margin: 5px;
+    padding: 2px;
+    border: 2px solid;
+    width: 300px;
+    height: 500px;
+    
+}
