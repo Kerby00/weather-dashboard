@@ -4,10 +4,13 @@
 -This application will generate a current/ 5 day forcast for any given location by city location or zip. It will tell you the temperature, wind speed and humidity with the date it is predicted on. In its current state a list of locations become a history list. It's not fully complete but I plan to do more in the future. Some features for future work would be quick forcasts from the history, emojis to give a flavor discription of the forcast, and no repeating forcast information. Less spagehtti code.
 
 
-image of deployed site:
-Screenshot_20230226_083815.png
+image of deployed site: ![Screenshot_20230226_083815](https://user-images.githubusercontent.com/119148777/221471030-09e6ab60-9d0a-424d-b152-734b6af9f75d.png)
 
-link to deployed site:
+
+
+link to deployed site: https://kerby00.github.io/weather-dashboard/
+
+
 ## Table of Content:
 -[Description](#description)
 -[Installation](#installation)
