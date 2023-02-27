@@ -4,7 +4,6 @@ var weatherAPI = 'https://api.openweathermap.org/data/2.5/weather?q='
 var forcastApi = "https://api.openweathermap.org/data/2.5/forecast?q="
 var key = "&appid=be30da2af0ff0d35435cf8d981573ac1"
 var date = dayjs().format('MM/DD/YYYY')
-var userinput = inputfieldEL.val()
 var day1 = dayjs().add(1, 'day').format('MM/DD/YYYY')
 var day2 = dayjs().add(2, 'day').format('MM/DD/YYYY')
 var day3 = dayjs().add(3, 'day').format('MM/DD/YYYY')
@@ -56,8 +55,9 @@ function weather(e) {
             }
         }).then(function buttony() {
             var histname = document.createElement('button')
-            histname.innerHTML = userinput
+            histname.innerHTML = input
             $('#recents').append(histname)
+            console.log(input)
         })
 
     //this function gets the weather for the next 5 day forcast
